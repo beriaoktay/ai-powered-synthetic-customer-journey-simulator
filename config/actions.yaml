@@ -1,0 +1,14 @@
+domain: ecommerce
+start: install
+end_absorbing: exit
+actions:
+  - install
+  - browse
+  - search
+  - view_item
+  - add_to_cart
+  - remove_from_cart
+  - start_checkout
+  - pay_fail
+  - pay_success
+  - exit
